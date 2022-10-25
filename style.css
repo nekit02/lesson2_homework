@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+
+    max-width: 428px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.44);
+    border-radius:  25px; 
+}
+.hero_high_part, .hero_low_part{
+    text-align: center;
+}
+.hero_middle_part{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+h1{
+    font-size: 32px;
+}
+.hero_logo_img{
+    border-radius: 50%;
+    margin: 67px 0;
+}
+.hero_mp_user_input, .hero_mp_password_input{
+    padding: 24px 167.5px 20px 0;
+    background: #C9E5FF;
+    border-radius: 8px;
+    border: none;
+}
+.upper_subtitle , .lower_subtitle{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.upper_subtitle{
+    margin-top: 40px;
+
+}
+.lower_subtitle{
+    margin-top: 14px;
+
+}
+.facebook_sign{
+    font-size: 17px;
+}
+.hero_mp_horizontal_inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-bottom: 33px;
+    text-align: left;
+}
+h5{
+    font-size: 20px;
+}
+.hero_reset , .hero_mp_remember_input{
+    font-size: 20px;
+}
+.hero_submiting_input{
+    margin: 0 auto;
+    height: 64px;
+    width: 335px;
+    border-radius: 8px;
+    background: #3B8030;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    color: white;
+}
+.Facebook_button{
+    margin: 0 auto;
+    height: 64px;
+    width: 335px;
+    border-radius: 8px;
+    background: #305480;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    color: white;
+    margin-bottom: 36px;
+    margin-top: 23px;
+}
